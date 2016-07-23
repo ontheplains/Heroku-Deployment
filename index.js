@@ -8,7 +8,7 @@ const mongoose = require('mongoose');
 const port = process.env.PORT || 3000;
 
 // DB connection string
-const uri = 'process.env.MONGOLAB_URI';
+const uri = process.env.MONGOLAB_URI;
 
 // Routes
 const routes = require('./app/routes/api');
