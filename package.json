@@ -1,0 +1,33 @@
+{
+  "name": "favorite-places",
+  "version": "0.0.1",
+  "description": "MEAN-Stack app to practice MongoDB relationships",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/philippschulte/favoritePlaces.git"
+  },
+  "keywords": [
+    "Mean-Stack",
+    "MongoDB",
+    "Relationships",
+    "Populate"
+  ],
+  "author": "Philipp Schulte",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/philippschulte/favoritePlaces/issues"
+  },
+  "homepage": "https://github.com/philippschulte/favoritePlaces#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cors": "^2.7.1",
+    "express": "^4.14.0",
+    "mongoose": "^4.5.5",
+    "morgan": "^1.7.0"
+  }
+}

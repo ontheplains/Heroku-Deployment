@@ -1,0 +1,21 @@
+{
+  "name": "favorite-places",
+  "description": "MEAN-Stack app to practice MongoDB relationships",
+  "main": "index.js",
+  "authors": [
+    "Philipp Schulte"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "Mean-Stack",
+    "MongoDB",
+    "Relationships",
+    "Populate"
+  ],
+  "homepage": "https://github.com/philippschulte/favoritePlaces",
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "angular": "^1.5.8",
+    "angular-route": "^1.5.8"
+  }
+}
